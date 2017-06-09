@@ -1,0 +1,113 @@
+/*----- Small phone: From 0 to 480px----*/
+
+
+
+
+/*----- Small phone to small tablets: From 481 to 640px----*/
+@media (max-width: 640px) {
+    .content{
+        font-size: 75%;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .lrad img{
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+    .newsico{
+        margin-left: 65%;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .newsico{
+        margin-left: 75%;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+    .newstitles h2{
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 640px) {
+    #category_top{
+        height: 350px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .cattlist_1 img{
+        width: 90%;
+    }
+}
+
+
+
+
+@media (max-width: 640px) {
+    .newsshow img{
+        width: 98%;
+    }
+}
+
+
+/*----- Small tablets to Big tables: From 641 to 1023px----*/
+@media (max-width: 1024px) {
+    .banner2{
+        padding: 15px 0 0 0;
+    }
+
+}
+@media only screen and (min-width: 1024px) {
+    .lrad img{
+        margin: 0 0 10px 10px;
+        width: 98%;
+    }
+}
+@media (max-width: 1024px) {
+    .category2top img{
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .userin h3{
+        margin: 0px;
+        padding-top: 10px;
+        font-size: 120%;
+    }
+    .userin p span{
+        font-size: 150%;
+        padding: 0px 10px;
+    }
+    .userin,.userface{
+        text-align: center
+    }
+    .category2top{
+        height: 400px;
+    }
+}
+
+
+/*----- Big tables to computers: From 1024 to 1200px----*/
+
+@media (max-width: 1024px) and (min-width: 640px){
+    .lrad img{
+        padding:5px 0;
+        width: 99%;
+    }
+    .lrad .ms{
+    }
+}
+
+
